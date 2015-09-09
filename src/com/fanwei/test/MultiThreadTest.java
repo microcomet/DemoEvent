@@ -4,13 +4,13 @@
 package com.fanwei.test;
 
 import com.fanwei.event.Event;
-import com.fanwei.event.EventPerform;
+import com.fanwei.event.EventListener;
 
 /**
  * @author fanwei
  *
  */
-public class MultiThreadTest implements EventPerform{
+public class MultiThreadTest implements EventListener{
 
 	/**
 	 * @param args

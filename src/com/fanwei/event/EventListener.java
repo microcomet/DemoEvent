@@ -7,6 +7,6 @@ package com.fanwei.event;
  * @author fanwei
  *
  */
-public interface EventPerform {
+public interface EventListener {
 	public void perform(int eventID);
 }

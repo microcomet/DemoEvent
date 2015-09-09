@@ -96,8 +96,8 @@ public class Event implements Runnable {
 					{
 						if (subscribeList.containsKey(event))
 							for (Object obj : subscribeList.get(event))
-								if (obj instanceof EventPerform)
-									((EventPerform) obj).perform(event);
+								if (obj instanceof EventListener)
+									((EventListener) obj).perform(event);
 					}
 				}
 				
